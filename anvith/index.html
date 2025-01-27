@@ -1,62 +1,132 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <title>Anvith VR Moola</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <p><strong>Anvith VR Moola</strong></p>
-	<p><strong>57 Certificates Earned</strong></p>
-    <table>
-      <tr style="text-align:center"; font-weight:bold; bgcolor="Yellow">
-        <th colspan="4">List of School, Coursera, and other Certificates Earned</th>
-      </tr>
-            
-      <tr><th>S#</th><th>Course Name</th> <th>No. of Courses</th><th> URL Links</th></tr>
-		  
-      <tr style="text-align:left"; bgcolor="Pink"><th>1</th><th>Anvith All in one Certificates Earned</th><th>57</th>
-      <th><a href="Anvith_AllInOneCertificates.pdf" target="blank"><button class="button">All In One</button></a></th>         
-
-       <tr style="text-align:left"; bgcolor="Yellow"><th>2</th><th>Taekwondo Certificates Earned</th><th>33</th>
-        <th><a href="Taekwondo.htm"> <button class="button">Taekwondo</button> </a></th>
-      </tr>  
-	  	  
-      <tr style="text-align:left"; bgcolor="Pink"><th>3</th><th>Taekwondo Board Breaking</th><th>9</th>
-        <th><a href="AnvithBoardBreaking.htm"> <button class="button">Taekwondo<br>Board Breaking</button> </a></th>
-      </tr>  
-
-     <tr style="text-align:left"; bgcolor="Yellow"><th>4</th><th>School Certificates Earned</th><th>7</th>
-      <th><a href="school/AllInOneSchool.pdf" target="blank"><button class="button">AllInOneSchool</button></a></th>  
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+      <meta name="viewport" content="width=device-width, initial-scale=1"><!--initial-scale=1.0">-->
+      <title>Family Achievements</title>
       
-	  <tr style="text-align:left"; bgcolor="Pink"><th>5</th><th>Coursera Certificates Earned</th><th>8</th>
-      <th><a href="coursera/AllInOneCoursera.pdf" target="blank"><button class="button">AllInOneCoursera</button></a></th> 
-      	  
-      <tr style="text-align:left"; bgcolor="Yellow"><th>6</th><th>Swimming Certificates Earned</th><th>6</th>
-      <th><a href="swimming/AllInOneSwimming.pdf" target="blank"><button class="button">AllInOneSwimming</button></a> </th>  
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+      <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      <style> 
+        body  {
+          /*outline: 2px solid block;*/
+          background-image:  url('/educationalalbum/pkr.jpg'), url('educationalalbum/mspr.jpg');
+          background-color: powderblue;/*#cccccc;*/
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100%;
+          width: 100%;   
+/*        margin-left: auto;
+          margin-right: auto;
+          padding-left: 1rem;
+          padding-right: 1rem;   */       
+          font-family: 'Numans', sans-serif;
+        }
+        @media(max-width:900px){
+        	#main{
+        		float:none;
+        		width:100%;
+        	}
+        	#sidebar{
+        		float:none;
+        		width:100%;
+        		height:130px;
+        		margin-bottom:20px;
+        	}
+        }        
+      </style>
+   </head>    
+  <body>
+    
+  <!--  {background-image:url('');}-->
+  <!--{background-image:url('');}-->
+	<section id="menu">
+	  <div class="container">
+	    <div class="menu-area">
+		  <!-- Navbar -->
+			<div class="navbar navbar-default" role="navigation">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>          
+			  </div>
+			    <div class="navbar-collapse collapse">
+				   <!-- Left nav -->
+				  <ul class="nav navbar-nav">
+				    <!--<li><a href="index.php">Home</a></li>-->
+					<li><a href="#">Home<span class="caret"></span></a>
+						
+					<li><a href="#">Moola Suryaprakash Reddy<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="moola.htm">Categorized Certificates Album</a></li>  	
+					  <li><a href="./3X3vs9X9Matrix.pdf" target="blank">3X3 vs 9X9 Sudoku Comparison</a></li> 							  
+					  <li><a href="./Reddy/pdf/Certificates_Album.pdf" target="blank"> An eBook of 176 Certificates</a></li>
+					  <li><a href="./Reddy/pdf/AllInOneCoursera.pdf" target="blank">All 126 Coursera Certificates</a></li>					  
+						<!--<li><a href="deepthi.htm">Deepthi</a></li>-->
+						<!--</li>-->
+					</ul>
+					</li>                        
+					<li><a href="#">Grandkids<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						  <li><a href="#">Anvith<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+							  <li><a href="anvith.htm">Categorized Certificates</a></li>
+							  <li><a href="AnvithBoardBreaking.htm">Taekwondo Board Breaking</a></li>							  
+							  <li><a href="./anvith/Anvith_AllInOneCertificates.pdf" target="blank">All In One Certificates</a></li> 
+							</ul>    
+						  </li>
+						  
+						  <li><a href="#">Adhira<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+							  <li><a href="adhira.htm">Categorized Certificates</a></li>
+							  <li><a href="AdhiraBoardBreaking.htm">Taekwondo Board Breaking</a></li>								  
+							  <li><a href="./adhira/Adhira_AllInOneCertificates.pdf" target="blank">All In One Certificates</a></li>  						
+							</ul>    
+						  </li>
+						  
+						  <li><a href="#">Diya<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+							  <li><a href="./diya/Diya_AllInOneCertificates.pdf" target="blank">All In One Certificates</a></li>  
+							  <li><a href="diya.htm">Certificate Details</a></li>
+							</ul>    
+						  </li>
+						  
+						  <li><a href="#">Maya<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+							  <li><a href="./maya/Maya_AllInOneCertificates.pdf" target="blank">All In One Certificates</a></li>  
+							  <li><a href="maya.htm">Certificate Details</a></li>
+							</ul>    
+						  </li>
+						</ul>
+					</li>
 
-      <tr style="text-align:left"; bgcolor="Pink"><th>7</th><th>LCPL: Read 1000 Books Before Kindergarten</th><th>2</th>
-      <th><a href="Other/LCPL-1K-Reading.pdf" target="blank"><button class="button">LCPL 1000<br>Books Reading</button></a></th>  	  
-	  
-      <tr style="text-align:left"; bgcolor="Yellow"><th>8</th><th>Other Certificaties Earned</th><th>1</th>
-      <th><a href="Other/AllInOneOthers.pdf" target="blank"><button class="button">AllInOneOthers</button></a></th>  
-	
-	  <tr style="text-align:left"; bgcolor="pink"><th>9</th><th>Adhira Certificates Earned</th><th>12</th>
-		<th><a href="adhira.htm"> <button class="button">Adhira</button> </a></th>
-	  </tr>	
-     
-	  <tr style="text-align:left"; bgcolor="Yellow"><th>10</th><th>Diya Certificates Earned</th><th>5</th>
-		<th><a href="diya.htm"> <button class="button">Diya</button> </a></th>
-	  </tr>	
-     
-	  <tr style="text-align:left"; bgcolor="pink"><th>11</th><th>Maya Certificates Earned</th><th>5</th>
-		<th><a href="maya.htm"> <button class="button">Maya</button> </a></th>
-	  </tr>	
-     	
-    </table>
-	
+					<li><a href="#">Father<span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="./FatherPoems.pdf" target="blank">An eBook of Telugu Poems</a></li>  
+						<li><a href="https://www.youtube.com/watch?v=tgWOjMZxx7w" target="blank">Telugu Poems Video (2008)</a></li> 					  
+					  </ul>
+					</li>    					     				
+					<!--<li><a href="/login.php">Login</a></li>--> 
+					<li><a href="#">About</a></li>					
+			  </ul>
+		    </div>
+		  		  <!--/.nav-collapse -->
+		  </div>
+	    </div>
+	  </div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>  
+	<script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+	<script type="text/javascript" src="js/jquery.smartmenus.bootstrap.js"></script>      
   </body>
-</html>
+</html> 

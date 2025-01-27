@@ -75,6 +75,22 @@ font-family: 'Numans', sans-serif;
   height: 20%;
 }
 
+.button {
+  background-color: #FD6A02; /* TIGER */
+                  /*#7AE582; /*Lightgreen*/ 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+  width: 200px;  
+}
+
+.button2 {background-color: #E5B80B;} /* Pure Gold */
 
 .overlay-text {
   position: absolute;
@@ -96,34 +112,6 @@ font-family: 'Numans', sans-serif;
 	  font-size: 1.15rem;
   font-weight: 300;
 }
-
-/* #FAAA16; Dark Tangerine
-   #FF8F29; Deep Saffron
-   #48BF91; Ocean Green
-   #7AE582; Lightgreen
-   #FD6A02; TIGER
-   #f9A602; Gold
-   #EF2831; Diamond Dash
-   #E5B80B; Pure Gold (not good) 
-   #ffd200; Shining Gold (OK)
-   #D4AF37; Metalic Gold
-*/
-
-.button {
-  background-color: #FD6A02; TIGER
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  /*margin: 4px 2px;*/
-  cursor: pointer;
-  width: 200px;
-}
-
-.button2 {background-color: #E5B80B;} /* Pure Gold */
 
 table, th, td {
     border: 1px solid black;
