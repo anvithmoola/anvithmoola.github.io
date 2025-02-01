@@ -50,16 +50,6 @@ p {
   padding: 30px;*/
 }
 
-/*
-html,body{
-background-image: url('pkr.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
-}
-*/
-
 .image-container {
   position: relative;
   display: inline-block;
