@@ -5,7 +5,7 @@ const imageContainer = document.querySelector(".image-container");
 const prevBtn = document.getElementById("prev");
 
 //homeBtn
-const homeBtn = document.getElementById("home");
+//const homeBtn = document.getElementById("home");
 
 //nextBtn
 const nextBtn = document.getElementById("next");
@@ -21,9 +21,9 @@ prevBtn.addEventListner("click", () => {
 	rotate();
 });
 
-homeBtn.addEventListner("click", () => {
-	<p><a href="/anvith/index.html"><button class="button">Home</button></a></p>
-});
+///homeBtn.addEventListner("click", () => {
+//	<p><a href="/anvith/index.html"><button class="button">Home</button></a></p>
+///});
 
 nextBtn.addEventListner("click", () => {
 	x = x - 45;
@@ -33,3 +33,12 @@ nextBtn.addEventListner("click", () => {
 function rotate(){
 	imageContainer.style.transform = 'perspective(1000px) rotateY(${x}deg)'
 };
+
+
+
+///#home{
+//	justify-content: center;
+//	align-items: center;
+//	text-align: center;	
+//	center: 20%;
+//}
