@@ -22,7 +22,7 @@ prevBtn.addEventListner('click', () => {
 })
 
 homeBtn.addEventListner('click', () => {
-	<p><strong><a href="./index.html"><button class="button">Home</button></a></strong></p>
+	<p><a href="/anvith/index.html"><button class="button">Home</button></a></p>
 })
 
 nextBtn.addEventListner('click', () => {
