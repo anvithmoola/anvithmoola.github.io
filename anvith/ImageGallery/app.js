@@ -16,16 +16,16 @@ const nextBtn = document.getElementById("next")
 
 let x = 0;
 
-prevBtn.addEventListner('click', () => {
+prevBtn.addEventListner("click", () => {
 	x = x + 45;
 	rotate();
 })
 
-homeBtn.addEventListner('click', () => {
+homeBtn.addEventListner("click", () => {
 	<p><a href="/anvith/index.html"><button class="button">Home</button></a></p>
 })
 
-nextBtn.addEventListner('click', () => {
+nextBtn.addEventListner("click", () => {
 	x = x - 45;
 	rotate();
 })
