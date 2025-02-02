@@ -16,13 +16,12 @@ let x = 0;
 prevBtn.addEventListner('click', () => {
 	x = x + 45;
 	rotate();
-})
+});
 
 nextBtn.addEventListner('click', () => {
 	x = x - 45;
 	rotate();
-})
-
+});
 
 function rotate(){
 	imageContainer.style.transform = 'perspective(1000px) rotateY(${x}deg)'
