@@ -1,14 +1,11 @@
 //imageContainer
-const imageContainer = document.querySelector(".image-container");
+const imageContainer = document.querySelector(".image-container")
 
 //prevBtn
-const prevBtn = document.getElementById("prev");
-
-//homeBtn
-//const homeBtn = document.getElementById("home");
+const prevBtn = document.getElementById("prev")
 
 //nextBtn
-const nextBtn = document.getElementById("next");
+const nextBtn = document.getElementById("next")
 
 //console.log(imageContainer);
 //console.log(prevBtn);
@@ -16,24 +13,17 @@ const nextBtn = document.getElementById("next");
 
 let x = 0;
 
-prevBtn.addEventListener("click", () => {
-  x = x + 45;
-  rotate();
-});
+prevBtn.addEventListner('click', () => {
+	x = x + 45;
+	rotate();
+})
 
-nextBtn.addEventListener("click", () => {
-  x = x - 45;
-  rotate();
-});
+nextBtn.addEventListner('click', () => {
+	x = x - 45;
+	rotate();
+})
 
-function rotate() {
-  imageContainer.style.transform = `perspective(1000px) rotateY(${x}deg)`;
+
+function rotate(){
+	imageContainer.style.transform = 'perspective(1000px) rotateY(${x}deg)'
 }
-
-
-///#home{
-//	justify-content: center;
-//	align-items: center;
-//	text-align: center;	
-//	center: 20%;
-//}
