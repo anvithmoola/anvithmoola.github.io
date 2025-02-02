@@ -54,6 +54,12 @@ body {
 	left: 20%;
 }
 
+#home{
+	justify-content: center;
+	align-items: center;
+	text-align: center;	
+	center: 20%;
+	
 #next{
 	right: 20%;
 }

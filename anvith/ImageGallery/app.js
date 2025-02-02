@@ -4,6 +4,9 @@ const imageContainer = document.querySelector(".image-container")
 //prevBtn
 const prevBtn = document.getElementById("prev")
 
+//homeBtn
+const homeBtn = document.getElementById("home")
+
 //nextBtn
 const nextBtn = document.getElementById("next")
 
@@ -18,11 +21,14 @@ prevBtn.addEventListner('click', () => {
 	rotate();
 })
 
+homeBtn.addEventListner('click', () => {
+	<p><strong><a href="./index.html"><button class="button">Home</button></a></strong></p>
+})
+
 nextBtn.addEventListner('click', () => {
 	x = x - 45;
 	rotate();
 })
-
 
 function rotate(){
 	imageContainer.style.transform = 'perspective(1000px) rotateY(${x}deg)'
