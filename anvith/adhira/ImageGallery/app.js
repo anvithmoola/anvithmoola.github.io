@@ -24,5 +24,5 @@ nextBtn.addEventListner('click', () => {
 });
 
 function rotate(){
-	imageContainer.style.transform = 'perspective(1000px) rotateY(${x}deg)'
+	imageContainer.style.transform = 'perspective(1000px) rotateY(${x}deg)';
 }
