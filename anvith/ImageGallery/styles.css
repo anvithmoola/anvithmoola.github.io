@@ -66,6 +66,16 @@ body {
   width: 200px;  
 }
 
+p {
+  color: blue;
+  font-family: courier;
+  font-size: 160%;
+  font-weight: bold;  
+  
+/*  border: 2px solid powderblue;
+  padding: 30px;*/
+}
+
 #prev{
 	left: 20%;
 }
