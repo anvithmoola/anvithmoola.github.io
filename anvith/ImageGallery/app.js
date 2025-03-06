@@ -1,11 +1,11 @@
 //imageContainer
-const imageContainer = document.querySelector(".image-container")
+const imageContainer = document.querySelector(".image-container");
 
 //prevBtn
-const prevBtn = document.getElementById("prev")
+const prevBtn = document.getElementById("prev");
 
 //nextBtn
-const nextBtn = document.getElementById("next")
+const nextBtn = document.getElementById("next");
 
 //console.log(imageContainer);
 //console.log(prevBtn);
