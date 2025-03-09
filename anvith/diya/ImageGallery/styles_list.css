@@ -6,7 +6,8 @@ body {
   align-items: center;
   text-align: center;
   height: 100vh;
-  background: black;
+  /*background: black;*/
+  background-color: powderblue;
   overflow: hidden;
 }
 
@@ -48,6 +49,31 @@ body {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.button {
+  background-color: #FD6A02; /* TIGER */
+                  /*#7AE582; /*Lightgreen*/ 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+  width: 200px;  
+}
+
+p {
+  color: blue;
+  font-family: courier;
+  font-size: 160%;
+  font-weight: bold;  
+  
+/*  border: 2px solid powderblue;
+  padding: 30px;*/
 }
 
 #prev {
