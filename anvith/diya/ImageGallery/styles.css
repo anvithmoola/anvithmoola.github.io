@@ -41,14 +41,16 @@ body {
 }
 
 .btn {
-	background-color: #FD6A02; /* TIGER */	
+	background-color: #FD6A02; /* TIGER */		
 	position: absolute;
 	bottom: -80px;
+	background: crimson;
+	color: #fff;
 	border: none;
 	padding: 10px 20px;
 	border-radius: 5px;
 	cursor: pointer;
-	width: 200px; 
+	width: 200px;
 }
 
 .button {
